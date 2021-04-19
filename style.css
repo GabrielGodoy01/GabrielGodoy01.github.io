@@ -1,3 +1,8 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 main {
   padding: 20px 0px;
   background: linear-gradient(rgb(206, 204, 204), rgb(143, 143, 143));
