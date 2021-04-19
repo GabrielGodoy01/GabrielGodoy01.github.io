@@ -2,6 +2,7 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 html,
 body {
   overflow-x: hidden;
@@ -237,27 +238,4 @@ footer {
   font-size: 13px;
   margin-top: 20px;
   padding-right: 33px;
-}
-
-@media screen and (max-width: 600px) {
-  .caixa,
-  .principal,
-  .conteudo-beneficios,
-  .mapa-conteudo,
-  .video {
-    width: auto;
-  }
-
-  h1 {
-    text-align: center;
-  }
-
-  nav {
-    position: static;
-  }
-
-  .lista-beneficios,
-  .imagem-beneficios {
-    width: 100%;
-  }
 }
