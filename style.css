@@ -2,6 +2,10 @@ html {
   position: relative;
   min-height: 100%;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 
 main {
   padding: 20px 0px;
