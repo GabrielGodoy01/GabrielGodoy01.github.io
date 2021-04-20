@@ -6,7 +6,6 @@ html {
 html,
 body {
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 main {
@@ -319,5 +318,15 @@ footer {
 
   .copyright {
     padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lista-contatos {
+    padding-right: 48px;
+    text-align: center;
+  }
+  .lista-contato-conteudo {
+    text-align: left;
   }
 }
