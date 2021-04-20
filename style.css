@@ -123,10 +123,6 @@ p > a:hover {
   display: block;
 }
 
-.habilidades {
-  padding: 1em 0;
-}
-
 .conteudo-habilidades {
   text-align: justify;
   text-justify: inter-word;
@@ -242,10 +238,37 @@ footer {
 @media screen and (max-width: 637px) {
   .caixa,
   .principal,
-  .conteudo-beneficios,
   .mapa-conteudo,
   .video {
     width: auto;
+  }
+
+  .titulo-principal {
+    font-size: 30px;
+    margin: 5px;
+  }
+
+  .principal p {
+    border-left: 0;
+    margin: 20px;
+    padding-left: 0px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .conteudo-paes {
+    text-align: left;
+    margin-right: 30px;
+    padding-bottom: 10px;
+  }
+
+  .lista-paes {
+    padding-left: 40px;
+  }
+
+  .imagem-certificado {
+    width: 50%;
+    border: 2px solid black;
   }
 
   h1 {
@@ -256,8 +279,19 @@ footer {
     position: static;
   }
 
-  .lista-beneficios,
-  .imagem-beneficios {
-    width: 100%;
+  .conteudo-habilidades {
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    padding-left: 100px;
+  }
+
+  .lista-habilidades {
+    display: block;
+    padding-right: 0px;
+  }
+
+  .copyright {
+    padding-right: 0px;
   }
 }
