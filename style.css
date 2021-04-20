@@ -139,6 +139,10 @@ p > a:hover {
   text-align: left;
 }
 
+.lista-contato-conteudo {
+  padding-top: 20px;
+}
+
 .lista-contatos {
   width: 100%;
   display: block;
@@ -283,6 +287,8 @@ footer {
 
   .lista-contatos {
     padding-top: 22px;
+    text-align: center;
+    padding-left: 40px;
   }
 
   .conteudo-habilidades {
@@ -290,6 +296,16 @@ footer {
     display: block;
     text-align: center;
     padding-left: 100px;
+  }
+
+  .lista-contato-conteudo {
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+
+  .icones {
+    padding-left: 20px;
   }
 
   .lista-habilidades {
